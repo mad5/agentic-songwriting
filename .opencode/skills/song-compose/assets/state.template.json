@@ -1,0 +1,10 @@
+{
+  "slug": "{{SLUG}}",
+  "round": 1,
+  "status": "running",
+  "language": "{{LANGUAGE}}",
+  "theme": "{{THEME}}",
+  "last_commit": null,
+  "created_at": "{{CREATED_AT}}",
+  "updated_at": "{{UPDATED_AT}}"
+}

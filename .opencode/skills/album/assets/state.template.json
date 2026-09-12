@@ -1,0 +1,15 @@
+{
+  "slug": "{{SLUG}}",
+  "phase": "interviewing",
+  "round": 0,
+  "status": "running",
+  "language": "{{LANGUAGE}}",
+  "theme": "{{THEME}}",
+  "track_count": 0,
+  "interview_step": 1,
+  "tracks": [],
+  "last_commit": null,
+  "critic_sessions": 0,
+  "created_at": "{{CREATED_AT}}",
+  "updated_at": "{{UPDATED_AT}}"
+}
