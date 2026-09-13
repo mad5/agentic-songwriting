@@ -4,7 +4,7 @@ Agentic **pre-studio songwriting**: style and lyrics for single songs and full a
 
 Example of the output: 
 
-Album: **Romeo & Juliet****
+Album: **Romeo & Juliet**
 https://suno.com/playlist/f0b45796-ec39-4274-99f5-03f6f9758b31
 
 Album: **The Long Way to Someday**
