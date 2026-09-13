@@ -2,7 +2,29 @@
 
 Agentic **pre-studio songwriting**: style and lyrics for single songs and full albums. Audio is produced elsewhere (Suno, Udio, a DAW). This repo only decides **how it should sound** and **what it should say**.
 
-Example of then output: https://suno.com/playlist/f0b45796-ec39-4274-99f5-03f6f9758b31
+Example of the output: 
+
+Album: **Romeo & Juliet****
+https://suno.com/playlist/f0b45796-ec39-4274-99f5-03f6f9758b31
+
+Album: **The Long Way to Someday**
+https://suno.com/playlist/45222775-4255-43d7-9653-cddb19bd02a6
+
+
+# TLDR;
+
+```bash
+git clone https://github.com/mad5/agentic-songwriting.git
+cd agentic-songwriting
+opencode
+```
+**Prompt:**
+
+`/album Two young lovers from feuding families in Verona secretly marry, but a tragic chain of misunderstandings leads to their untimely deaths, which finally ends the bitter rivalry between their households. `
+
+
+
+# Long version
 
 Skills follow the [Agent Skills](https://agentskills.io) layout: one folder per skill, each with a `SKILL.md` plus optional `assets/` and `references/`. They ship in [`.cursor/skills/`](.cursor/skills/). Install **the whole set** — orchestrators dispatch the other roles by name.
 
@@ -28,11 +50,9 @@ Default language for written artifacts is **English (`en`)**. Override with `Lan
 You need an agent that loads filesystem skills (Cursor, Claude Code, or OpenCode), **git** (orchestrators commit after each round), and a clone of this repository. Song and album drafts are written under `songs/` and `albums/` in the project you open — clone this repo and work **inside it**, or copy the skill folders into another git repo.
 
 ```bash
-git clone <this-repo-url> musicay-agent
-cd musicay-agent
+git clone https://github.com/mad5/agentic-songwriting.git
+cd agentic-songwriting
 ```
-
-Replace `<this-repo-url>` with the GitHub URL of this repository.
 
 Each skill is a directory whose name matches the `name` in `SKILL.md`:
 
